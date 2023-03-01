@@ -1,1 +1,1 @@
-export { addSlash as default } from '../../mod.ts'
+export { addSlash as default } from 'https://deno.land/x/slash_handler/mod.ts'
