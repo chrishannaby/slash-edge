@@ -1,14 +1,8 @@
-# Strip or add trailing slash
+# Add trailing slash
 
-Banish or enforce trailing slashes with Netlify edge functions. [Demo](https://trailing-slash-edge.netlify.app/)
+Enforce trailing slashes with Netlify edge functions. [Demo](https://add-trailing-slashes.netlify.app/)
 
 ## Usage
-
-You can either manually copy the function, or import it from a URL.
-
-### Manual
-
-Copy the appropriate function from [`/lib/`](https://github.com/ascorbic/slash-edge/tree/main/lib) to your site's `/netlify/edge-functions/` directory.
 
 ### Import from URL
 
