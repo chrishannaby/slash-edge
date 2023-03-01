@@ -11,7 +11,7 @@ Create a handler your site's `/netlify/edge-functions/` directory and export the
 ```typescript
 // /netlify/edge-functions/strip-slash.ts
 
-export { stripSlash as default } from 'https://deno.land/x/slash_handler/mod.ts'
+export { addSlash as default } from 'https://deno.land/x/slash_handler/mod.ts'
 ```
 
 After creating the function, you then need to add a declaration to your site's `netlify.toml`:
